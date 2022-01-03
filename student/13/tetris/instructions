@@ -1,0 +1,26 @@
+Peli alkaa automaattisesti, kun ohjelman käynnistää. Pelissä pelaajan on
+tarkoitus saada mahdollisimman suuri määrä pisteitä. Pisteitä kertyy sitä mukaa,
+kun putoavia palikoita, tetrominoja, asettuu pelialueelle. Palikoita ei voi
+kääntää, mutta niitä voi siirtää näppäimillä A ja D oikealle ja vasemmalle.
+Palikoita ei voi myöskään kääntää. Pelissä putoamisnopeus on aluksi palikan osa-
+ruudun verran sekunnissa. Kerätyt pisteet näkyvät ruudulla, kuten näkyy myös
+pelin taso. Jokaisesta osaruudusta saa pelin tason kertoimen mukaan pisteitä.
+Esimerkiksi tasolla yksi saa neljä pistettä per palikka ja tasolla kolme saa
+kaksitoista pistettä per palikka. Taso kasvaa aina viiden palikan välein ja
+peli vaikeutuu joka toisella tasolla. Pelin vaikeutuessa putoamisaika puolittuu.
+Peli päättyy, kun kohdassa, johon palikka aluksi ilmestyy on jo olemassa yksikin
+osaruutu. Tällöin pelaajalle ilmoitetaan pelin loppumisesta ja näkvyiin jäävät
+hänen saavuttamansa pisteet ja taso.
+
+Pelissä on seitsemän palikkaa, tetrominoa, jotka putoilevat satunnaisesti alussa
+tyhjänä olevalle suorakaiteen malliselle pelialueelle. Palikoita voi siirtää va-
+semmalle ja oikealle, muttei läpi rajojen tai toisten palikoiden.
+
+Seitsemän palikan toteuttamisen lisäksi pelissä on lisäominaisuuksista pistelas-
+ku, joka näkyy käyttäjälle, sekä taso, joka näytetään pelaajalle ja joka vaikut-
+taa sekä pistelaskuun, että vaikeustason kasvuun. Palikoiden putoamisnopeus siis
+kasvaa pelin aikana automaattisesti pelaajan saavuttaman tason mukaan.
+
+Pelin teknisempi toteutus on kuvattu mainwindow.cpp tiedoston alussa. Lisäomi-
+naisuuksia on siis toteutettu 20 pisteen edestä ja kaikki minimivaatimukset toi-
+mivat.
